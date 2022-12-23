@@ -69,7 +69,12 @@ public class User
     }
     public static User fromMap(Map<String,Object> map)
     {
-    return new User().setEmail(map.get("email").toString());
+    return new User()
+            .setEmail(map.get("email").toString())
+            .setId(Integer.parseInt(map.get("id").toString()))
+            .setName(map.get("name").toString())
+            .setPassword(map.get("password").toString())
+            .setRule(map.get("rule").toString());
     }
 
 }
