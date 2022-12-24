@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/register_bk_color"
@@ -96,16 +100,21 @@
                             android:inputType="textPassword"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
-                    <br.com.simplepass.loading_button_lib.customViews.CircularProgressEditText
+                    <com.dd.CircularProgressButton
                         android:id="@+id/cirRegisterButton"
-                        style="@style/loginButton"
-                        app:spinning_bar_width="4dp"
-                        app:spinning_bar_color="#FFF"
-                        android:text="Register"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="@dimen/loginViewsMargin"
-                        app:initialCornerAngle="27dp"
-                        app:spinning_bar_padding="6dp"/>
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"                        android:textColor="@color/cpb_white"
+                        android:textSize="18sp"
+                        app:cpb_cornerRadius="48dp"
+                        app:cpb_colorIndicator="@color/colorAccent"
+
+                        android:layout_gravity="center"
+                        app:cpb_iconComplete="@drawable/ic_action_accept"
+                        app:cpb_iconError="@drawable/ic_action_cancel"
+                        app:cpb_textIdle="Register"
+
+                        />
 
                     <TextView
                         style="@style/parent"
@@ -139,7 +148,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/whiteTextColor"
-                    android:text="Use other Methods"
+                    android:text="Owner Sponsors"
                     android:layout_weight="6"
                     android:textSize="12sp"
                     android:textAlignment="center"/>
@@ -179,14 +188,17 @@
         android:layout_width="11dp"
         android:layout_height="match_parent"
         android:background="@drawable/ic_side_bg"/>
+
     <ImageView
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_back_img"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="30dp"
+        android:adjustViewBounds="false"
         android:onClick="onLoginClick"
-        android:adjustViewBounds="false"/>
+        android:src="@drawable/ic_back_img" />
 </RelativeLayout>
+</layout>

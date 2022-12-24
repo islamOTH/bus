@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.dmytrodanylyk:circular-progress-button:1.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bb97ba243cd55f269e97256052a6fef/transformed/jetified-circular-progress-button-1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8bb97ba243cd55f269e97256052a6fef/transformed/jetified-circular-progress-button-1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8bb97ba243cd55f269e97256052a6fef/transformed/jetified-circular-progress-button-1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dmytrodanylyk/circular-progress-button/1.2/bcb3fa6fcca05cc231f54c9b750163e6e4a7eca9/circular-progress-button-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

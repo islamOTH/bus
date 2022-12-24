@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/login_bk_color"
@@ -68,18 +73,23 @@
                 android:textColor="@color/primaryTextColor"
                 android:textSize="@dimen/newsMoreTextSize"
                 android:layout_gravity="end"
-                android:layout_marginTop="10dp"/>x
+                android:layout_marginTop="10dp"/>
 
-            <br.com.simplepass.loading_button_lib.customViews.CircularProgressEditText
+            <com.dd.CircularProgressButton
                 android:id="@+id/cirLoginButton"
-                style="@style/loginButton"
-                app:spinning_bar_width="4dp"
-                app:spinning_bar_color="#FFF"
-                android:text="Login"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/loginViewsMargin"
-                app:spinning_bar_padding="6dp"
-                app:initialCornerAngle="27dp"/>
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"                        android:textColor="@color/cpb_white"
+                android:textSize="18sp"
+                app:cpb_cornerRadius="48dp"
+                app:cpb_colorIndicator="@color/colorAccent"
+
+                android:layout_gravity="center"
+                app:cpb_iconComplete="@drawable/ic_action_accept"
+                app:cpb_iconError="@drawable/ic_action_cancel"
+                app:cpb_textIdle="Login"
+
+                />
 
             <TextView
                 style="@style/parent"
@@ -109,7 +119,7 @@
                     style="@style/viewParent.headerText.NoMode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Use other Methods"
+                    android:text="Owner Sponsors"
                     android:layout_weight="6"
                     android:textSize="12sp"
                     android:textAlignment="center"/>
@@ -132,6 +142,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_facebook"/>
                 <ImageView
+                    android:id="@+id/btngoogle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_google_plus"
@@ -157,3 +168,4 @@
         android:layout_marginBottom="30dp"
         android:src="@drawable/ic_add_img" />
 </RelativeLayout>
+</layout>
