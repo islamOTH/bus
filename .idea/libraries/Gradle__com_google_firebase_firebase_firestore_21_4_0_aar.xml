@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/80482742e2f92e2629f36b7ed9cd42a7/transformed/firebase-firestore-21.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/db7f766aa41f4c1267da3cd85c2e336b/transformed/firebase-firestore-21.4.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/db7f766aa41f4c1267da3cd85c2e336b/transformed/firebase-firestore-21.4.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/db7f766aa41f4c1267da3cd85c2e336b/transformed/firebase-firestore-21.4.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eb6e99e89fd424a9f7bb12c7536c5de7/transformed/firebase-firestore-21.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb6e99e89fd424a9f7bb12c7536c5de7/transformed/firebase-firestore-21.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb6e99e89fd424a9f7bb12c7536c5de7/transformed/firebase-firestore-21.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore/21.4.0/b0a586ff4e3d796269f96166681632517ea85611/firebase-firestore-21.4.0-javadoc.jar!/" />
