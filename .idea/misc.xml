@@ -11,9 +11,10 @@
         <entry key="..\:/project/bus/app/src/main/res/drawable-v24/ic_register_hero.xml" value="0.2145" />
         <entry key="..\:/project/bus/app/src/main/res/drawable-v24/ic_side_bg.xml" value="0.2145" />
         <entry key="..\:/project/bus/app/src/main/res/drawable/ic_launcher_background.xml" value="0.158" />
-        <entry key="..\:/project/bus/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/project/bus/app/src/main/res/layout/activity_main.xml" value="0.24791666666666667" />
         <entry key="..\:/project/bus/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
       </map>
     </option>
   </component>
