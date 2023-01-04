@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".view.user.MainActivity">
-    <fragment
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:map="http://schemas.android.com/apk/res-auto"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:id="@+id/map"
-        android:layout_width="match_parent"
+<layout   xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+    </data>
+    <FrameLayout
+       android:layout_width="match_parent"
         android:layout_height="match_parent"
-        map:cameraZoom="13"
-        map:mapType="hybrid"
+        android:id="@+id/mainFrame"
         />
-
-</FrameLayout>
+</layout>

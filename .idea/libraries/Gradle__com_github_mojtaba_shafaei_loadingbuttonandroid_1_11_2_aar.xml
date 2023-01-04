@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.mojtaba-shafaei:loadingbuttonandroid:1.11.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ab62bc64023375bbbe6a384dac894958/transformed/jetified-loadingbuttonandroid-1.11.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ab62bc64023375bbbe6a384dac894958/transformed/jetified-loadingbuttonandroid-1.11.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ab62bc64023375bbbe6a384dac894958/transformed/jetified-loadingbuttonandroid-1.11.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fee43dbb6da7fed40d54ddb6df3bde24/transformed/jetified-loadingbuttonandroid-1.11.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fee43dbb6da7fed40d54ddb6df3bde24/transformed/jetified-loadingbuttonandroid-1.11.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fee43dbb6da7fed40d54ddb6df3bde24/transformed/jetified-loadingbuttonandroid-1.11.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.mojtaba-shafaei/loadingbuttonandroid/1.11.2/5e06ae5679a6f242073eb31b6cf6caf5f14248b/loadingbuttonandroid-1.11.2-javadoc.jar!/" />

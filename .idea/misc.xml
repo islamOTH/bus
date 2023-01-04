@@ -11,10 +11,30 @@
         <entry key="..\:/project/bus/app/src/main/res/drawable-v24/ic_register_hero.xml" value="0.2145" />
         <entry key="..\:/project/bus/app/src/main/res/drawable-v24/ic_side_bg.xml" value="0.2145" />
         <entry key="..\:/project/bus/app/src/main/res/drawable/ic_launcher_background.xml" value="0.158" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/activity_admin.xml" value="0.25" />
         <entry key="..\:/project/bus/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/project/bus/app/src/main/res/layout/activity_main.xml" value="0.24791666666666667" />
         <entry key="..\:/project/bus/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/project/bus/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/activity_user.xml" value="0.1452152110321772" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_add_controller.xml" value="0.17" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_add_driver.xml" value="0.22" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_add_my_user.xml" value="0.22" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_admin.xml" value="0.25" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_all_my_controller.xml" value="0.18" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_all_my_driver.xml" value="0.33061594202898553" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_all_my_user.xml" value="0.2552083333333333" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_all_user.xml" value="0.3614583333333333" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_all_user_account.xml" value="0.1452152110321772" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_driver_info.xml" value="0.2278751603249252" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_maps.xml" value="0.2975630611372381" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_my_user_info.xml" value="0.25" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_register.xml" value="0.16" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_splash.xml" value="0.22905982905982905" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/fragment_user.xml" value="0.21" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/pay_item.xml" value="0.5194244604316547" />
+        <entry key="..\:/project/bus/app/src/main/res/layout/user_item.xml" value="0.22" />
       </map>
     </option>
   </component>

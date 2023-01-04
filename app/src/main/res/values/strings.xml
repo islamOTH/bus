@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">BusApp</string>
-    <string name="login_email_hint">Email Or Phone</string>
+    <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--for facebook login-->
 </resources>

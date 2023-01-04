@@ -1,21 +1,11 @@
 package com.svu.bus.model;
 
-import androidx.annotation.NonNull;
-
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.Exclude;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.IgnoreExtraProperties;
-import com.svu.bus.controller.InsertAction;
-
-import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-@IgnoreExtraProperties
 
-public class User implements Serializable
+import javax.inject.Inject;
+
+public class User
 {
     private String id;
     private String name;
@@ -23,7 +13,6 @@ public class User implements Serializable
     private String password;
     private String rule;
     private String phone;
-
     public String getId() {
         return id;
     }
@@ -77,7 +66,7 @@ public class User implements Serializable
         this.rule = rule;
         this.phone = phone;
     }
-
+   @Inject
     public User() {
     }
 
@@ -93,7 +82,6 @@ public class User implements Serializable
         this.phone = phone;
         return this;
     }
-    @Exclude
 
     public Map<String , Object> toMap()
     {
@@ -114,26 +102,15 @@ public class User implements Serializable
             .setRule(map.get("rule").toString());
     }
 
-    public void insert(InsertAction insertAction)
-    {
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-        // Add a new document with a generated ID
-        db.collection("users")
-                .add(this.toMap())
-                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-                    @Override
-                    public void onSuccess(DocumentReference documentReference) {
-                    id=documentReference.getId();
-                    insertAction.insertComplate(User.this);
-                    }
-                })
-                .addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e)
-                    {
-                        insertAction.insertError(e.getMessage().toString());
-                    }
-                });
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", rule='" + rule + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
     }
-
 }
